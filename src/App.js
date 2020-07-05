@@ -10,7 +10,10 @@ import Navigation from './components/Navigation';
 import PhotoContainer from './components/PhotoContainer';
 import NotFound from './components/NotFound';
 import './css/index.css';
-import apiKey from './data/config';
+// The following code is removed. It was only used during deployment.
+// import apiKey from './data/config';
+
+const apiKey = process.env.REACT_APP_API_KEY;
 
 export default class App extends Component {
   constructor() {
