@@ -12,7 +12,6 @@ import NotFound from './components/NotFound';
 import './css/index.css';
 import apiKey from './data/config';
 
-
 export default class App extends Component {
   constructor() {
     super();
