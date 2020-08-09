@@ -93,6 +93,10 @@ input {
   width: 100%;
 }
 
+.nav-selected {
+  background-color: yellowgreen;
+}
+
 /* Added Styling for 'no result' and 'not found' routes */
 .page-title {
   margin-bottom: 50px;
