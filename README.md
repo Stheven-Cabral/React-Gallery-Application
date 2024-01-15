@@ -10,7 +10,7 @@ A gallery application built using [Create React App]. The project was focused on
 const apiKey = 'YOUR API KEY HERE';<br>
 export default apiKey;
 
-<h4>2. Import the apiKey variable in the App.js component:</h4>
+<h4>2. Import the apiKey variable in the app.js component:</h4>
 
 import apiKey from 'ROUTE TO config.js HERE';
 
